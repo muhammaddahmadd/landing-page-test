@@ -6,10 +6,10 @@ const Partners = () => {
       <div className="">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 
+          <h2
             className="text-[24px] font-medium text-neutral-700 mb-8 text-center font-sora leading-[120%]"
             style={{
-              letterSpacing: '-4%',
+              letterSpacing: "-4%",
             }}
           >
             Partnered with worldwide leading companies.
@@ -21,74 +21,67 @@ const Partners = () => {
           {/* Logo 1 */}
           <div className="flex items-center gap-3">
             <Image
-              src="/Logo01.svg"
+              src="/images/Logo01.svg"
               alt="Partner Logo 1"
               width={205}
               height={59}
               className="w-[100%] h-[59px]"
             />
-            
           </div>
 
           {/* Logo 2 */}
           <div className="flex items-center ">
             <Image
-              src="/Logo02.png"
+              src="/images/Logo02.png"
               alt="Partner Logo 2"
               width={205}
               height={59}
               className="w-[100%] h-[59px]"
             />
-           
-        
           </div>
 
           {/* Logo 3 */}
           <div className="flex items-center gap-3">
             <Image
-              src="/Logo03.png"
+              src="/images/Logo03.png"
               alt="Partner Logo 3"
               width={205}
               height={59}
               className="w-[100%] h-[59px]"
             />
-            
           </div>
 
           {/* Logo 4 */}
           <div className="flex items-center gap-3">
             <Image
-              src="/Logo04.png"
+              src="/images/Logo04.png"
               alt="Partner Logo 4"
               width={205}
               height={59}
               className="w-[100%] h-[59px]"
             />
-           
           </div>
 
           {/* Logo 5 */}
           <div className="flex items-center gap-3">
             <Image
-              src="/Logo05.png"
+              src="/images/Logo05.png"
               alt="Partner Logo 5"
               width={205}
               height={59}
               className="w-[100%] h-[59px]"
             />
-           
           </div>
 
           {/* Logo 6 */}
           <div className="flex items-center gap-3">
             <Image
-              src="/Logo06.png"
+              src="/images/Logo06.png"
               alt="Partner Logo 6"
               width={205}
               height={100}
               className="w-[100%] h-[59px]"
             />
-            
           </div>
         </div>
       </div>
@@ -96,4 +89,4 @@ const Partners = () => {
   );
 };
 
-export default Partners; 
+export default Partners;

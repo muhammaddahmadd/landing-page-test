@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 const Logo = () => (
   <div className="flex items-center">
-    <Image src="/logo.svg" alt="klipAI logo" width={100} height={100}  className="mr-2" priority />
+    <Image src="/images/logo.svg" alt="klipAI logo" width={100} height={100}  className="mr-2" priority />
   </div>
 );
 

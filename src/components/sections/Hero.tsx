@@ -13,7 +13,7 @@ const Hero = () => (
         {/* 3D Green Shape */}
         <div className="absolute -translate-x-1/2 -translate-y-1/2 z-10 sm:w-[580px] sm:h-[586px] h-[476px] w-[376] pointer-events-none select-none">
           <Image
-            src="/3d-img.png"
+            src="/images/3d-img.png"
             alt="3D green shape"
             fill
             style={{ objectFit: "contain" }}
@@ -23,7 +23,7 @@ const Hero = () => (
         {/* Phone Mockup */}
         <div className="absolute sm:hidden left-[20px] sm:left-[-20px]  top-[30px] sm:top-[-70px]  -translate-x-1/2 -translate-y-1/2 z-20 sm:w-[470px] sm:h-[700px] h-[476px] w-[370px] flex items-center justify-center pointer-events-none select-none">
           <Image
-            src="/iphone-2.png"
+            src="/images/iphone-2.png"
             alt="Phone mockup"
             fill
             style={{ objectFit: "contain" }}
@@ -32,7 +32,7 @@ const Hero = () => (
         </div>{" "}
         <div className="absolute hidden sm:block left-[20px] sm:left-[-20px]  top-[30px] sm:top-[-70px]  -translate-x-1/2 -translate-y-1/2 z-20 sm:w-[1190px] sm:h-[700px] h-[476px] w-[370px] flex items-center justify-center pointer-events-none select-none">
           <Image
-            src="/iphone.png"
+            src="/images/iphone.png"
             alt="Phone mockup"
             fill
             style={{ objectFit: "contain" }}
@@ -62,7 +62,7 @@ const Hero = () => (
               <span className="text-xs font-medium text-black">APL</span>
             </div>
             <div className="ml-2  ">
-              <img src="/Sparkle.svg" alt="Sparkle" className="min-w-10" />
+              <img src="/images/Sparkle.svg" alt="Sparkle" className="min-w-10" />
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ const Hero = () => (
             }}
           >
             <div>
-              <img src="/spark2.svg" alt="Sparkle" className="min-w-10 " />
+              <img src="/images/spark2.svg" alt="Sparkle" className="min-w-10 " />
             </div>
             <div className="flex flex-col mr-2 ml-1">
               <span className="sm:text-base text-xs font-semibold text-neutral-800">
@@ -175,7 +175,7 @@ const Hero = () => (
           <div className="lg:w-1/2 hidden sm:block relative ">
     
            
-             <img src={"/frame.png"} />
+             <img src={"/images/frame.png"} />
           
             
      
@@ -185,7 +185,7 @@ const Hero = () => (
            <div className="w-100 h-auto block sm:hidden relative ">
            
            
-             <img src={"/Body.png"} />
+             <img src={"/images/Body.png"} />
           
             
      
@@ -222,4 +222,4 @@ const Hero = () => (
   </>
 );
 
-export default Hero;  
+export default Hero;
