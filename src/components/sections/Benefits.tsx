@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Benefits = () => {
   return (
-    <section className="relative w-full py-20 bg-white">
+    <section className="relative w-full sm:py-20  bg-white">
       <div className="max-w-7xl sm:mx-auto mx-3 sm:px-6">
         {/* Section Header */}
         <button
