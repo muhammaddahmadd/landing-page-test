@@ -244,6 +244,3 @@ This project is for demonstration purposes only.
 
 This is a demonstration project. For questions or feedback, please refer to the AI usage documentation.
 
----
-
-**Built with ❤️ using Next.js, TypeScript, and Tailwind CSS**
